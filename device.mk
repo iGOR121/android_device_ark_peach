@@ -25,4 +25,4 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
 
-$(call inherit-product, vendor/lenovo/a6000/a6000-vendor.mk)
+$(call inherit-product, vendor/ark/peach/peach-vendor.mk)

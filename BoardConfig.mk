@@ -13,12 +13,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PATH := device/lenovo/a6000
+DEVICE_PATH := device/ark/peach
 FORCE_32_BIT := true
 
 include device/lenovo/msm8916-common/BoardConfigCommon.mk
 
-include device/lenovo/a6000/board/*.mk
+include device/ark/peach/board/*.mk
 
 # inherit from proprietary files
--include vendor/lenovo/a6000/BoardConfigVendor.mk
+-include vendor/ark/peach/BoardConfigVendor.mk

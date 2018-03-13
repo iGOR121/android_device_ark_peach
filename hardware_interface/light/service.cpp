@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.light@2.0-service.a6000"
+#define LOG_TAG "android.hardware.light@2.0-service.peach"
 
 #include <hidl/HidlTransportSupport.h>
 

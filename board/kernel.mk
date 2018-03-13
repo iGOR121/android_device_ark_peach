@@ -1,7 +1,7 @@
 # Kernel
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
-TARGET_KERNEL_SOURCE := kernel/lenovo/a6000
-TARGET_KERNEL_CONFIG := lineageos_a6000_defconfig
+TARGET_KERNEL_SOURCE := kernel/ark/peach
+TARGET_KERNEL_CONFIG := lineageos_peach_defconfig
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
