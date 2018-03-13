@@ -16,7 +16,7 @@
 $(call inherit-product, device/ark/peach/full_peach.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
@@ -24,9 +24,7 @@ TARGET_BOARD_PLATFORM_VARIANT := msm8916
 # Assert
 TARGET_OTA_ASSERT_DEVICE := peach,benefit,ark_benefit_a3,benefit_a3,a3,ark
 
-PRODUCT_NAME := aosp_peach
+PRODUCT_NAME := lineage_peach
 BOARD_VENDOR := ARK
-TARGET_BOOT_ANIMATION_RES := 720
-EXTENDED_BUILD_TYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-elephone
