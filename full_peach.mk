@@ -17,12 +17,12 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit from a6000 device
-$(call inherit-product, device/lenovo/a6000/device.mk)
+# Inherit from device
+$(call inherit-product, device/ark/peach/device.mk)
 
 # Device identifier. This must come after all inclusions
 TARGET_VENDOR := ark
-PRODUCT_DEVICE := a6000
+PRODUCT_DEVICE := peach
 PRODUCT_NAME := full_peach
 PRODUCT_BRAND := ARK
 PRODUCT_MODEL := Benefit A3
