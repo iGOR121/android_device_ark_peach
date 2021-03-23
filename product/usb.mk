@@ -11,7 +11,6 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
 
 # USB ID
-ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.vid=2717 \
     ro.usb.id.midi=90BA \
     ro.usb.id.midi_adb=90BB \
@@ -21,3 +20,4 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.id.ptp_adb=ff18 \
     ro.usb.id.ums=ff20 \
     ro.usb.id.ums_adb=ff28
+ADDITIONAL_DEFAULT_PROPERTIES += \
