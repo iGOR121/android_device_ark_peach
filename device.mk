@@ -15,12 +15,16 @@
 #
 
 # Inherit from msm8916-common
-$(call inherit-product, device/lenovo/msm8916-common/msm8916.mk)
+$(call inherit-product, device/ark/msm8916-common/msm8916.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 #    $(LOCAL_PATH)/overlay-lineage
+
+# Shims
+PRODUCT_PACKAGES += \
+    libshim_atomic
 
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
