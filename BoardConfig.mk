@@ -16,7 +16,7 @@
 DEVICE_PATH := device/ark/peach
 FORCE_32_BIT := true
 
-include device/lenovo/msm8916-common/BoardConfigCommon.mk
+include device/ark/msm8916-common/BoardConfigCommon.mk
 
 include device/ark/peach/board/*.mk
 
